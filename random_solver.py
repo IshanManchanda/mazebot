@@ -57,7 +57,6 @@ def bfs(grid, size, path, q, target):
 
 			if target == (x, y - 1):
 				return path[x][y - 1]
-
 	# Hmmm. We have visited every cell that we could reach,
 	# but haven't found the end point. Something seems off.
 	# raise EndNotFoundError
