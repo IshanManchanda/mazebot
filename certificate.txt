@@ -1,0 +1,7 @@
+https://api.noopschallenge.com/mazebot/race/certificate/qR8U5sPNjdTUqpL-GV68u8gz3ii5Xg2716IMRl_0SJgvjp7N_qGMzVWfC_74Caja
+
+{
+	"message": "This certifies that IshanManchanda completed the mazebot race in 26.463 seconds.",
+	"elapsed": 26.463,
+	"completed": "2019-06-20T18:17:16.102Z"
+}
