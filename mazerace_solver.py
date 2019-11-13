@@ -57,9 +57,9 @@ def bfs(grid, size, path, q, target):
 
 			if target == (x, y - 1):
 				return path[x][y - 1]
-	# Hmmm. We have visited every cell that we could reach,
-	# but haven't found the end point. Something seems off.
-	# raise EndNotFoundError
+			# Hmmm. We have visited every cell that we could reach,
+			# but haven't found the end point. Something seems off.
+			# raise EndNotFoundError
 
 
 def submit_solution(maze_url, solution):
@@ -99,7 +99,8 @@ def solve_maze(maze_url):
 
 def start_race():
 	j = {'login': 'IshanManchanda'}
-	return requests.post(api + '/mazebot/race/start', json=j).json()['nextMaze']
+	return requests.post(api + '/mazebot/race/start', json=j) \
+		.json()['nextMaze']
 
 
 def main():
